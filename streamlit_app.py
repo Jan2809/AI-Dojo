@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_extras.stoggle import stoggle
+
 
 st.title("🏡 California House Price Prediction")
 st.subheader("Check out the colab workbook 🔗.")
