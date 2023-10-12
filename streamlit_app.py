@@ -1,7 +1,7 @@
 import streamlit as st
 
-
-st.title("California Housing Prices Prediction")
+st.title("🏡 California House Price Prediction")
+st.subheader("Check out the colab workbook 🔗.")
 st.markdown("""
 ##### A web application for predicting California Housing Prices.
  
