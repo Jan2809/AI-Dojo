@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+from streamlit_option_menu import option_menu
+
+selected = option_menu(None, ["Home", "Data Set", "Classification", 'About'], 
+    icons=['house', 'table', "list-task", 'gear'], 
+    menu_icon="cast", default_index=0, orientation="horizontal")
+selected
+
 st.title("🏡 California House Price Prediction")
 st.subheader("Check out the colab workbook 🔗.")
 st.markdown("""
