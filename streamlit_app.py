@@ -1,6 +1,6 @@
 import streamlit as st
 
-_max_width_(70)
+
 st.title("California Housing Prices Prediction")
 st.markdown("""
 ##### A web application for predicting California Housing Prices.
