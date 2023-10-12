@@ -1,5 +1,5 @@
 import streamlit as st
-
+pip install streamlit-extras
 
 st.title("🏡 California House Price Prediction")
 st.subheader("Check out the colab workbook 🔗.")
@@ -12,7 +12,10 @@ such as the number of rooms, the number of bedrooms, the population of the house
 The app preprocesses the input data by combining some of the features and adding new features, such as the distance to the nearest city.
 """)
 
+from streamlit_extras.stoggle import stoggle
+
 stoggle(
     "Click me!",
     """🥷 Surprise! Here's some additional content""",
 )
+
