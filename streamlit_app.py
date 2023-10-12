@@ -14,7 +14,7 @@ The app preprocesses the input data by combining some of the features and adding
 """)
 
 # Lese den Datensatz aus einer CSV-Datei
-data = pd.read_csv('dein_datensatz.csv')
+data = pd.read_csv('housing_new.csv')
 
 # Anzeige des Datensatzes als Tabelle
 st.write("Hier ist der Datensatz als Tabelle:")
