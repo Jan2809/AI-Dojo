@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+import numpy as 
+from streamlit_option_menu import option_menu
+
+
+
 
 st.title("🏡 California House Price Prediction")
 st.subheader("Check out the colab workbook 🔗.")
