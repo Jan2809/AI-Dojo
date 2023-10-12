@@ -18,4 +18,4 @@ data = pd.read_csv('housing_new.csv')
 
 # Anzeige des Datensatzes als Tabelle
 st.write("Hier ist der Datensatz als Tabelle:")
-st.table(data
+st.table(data)
