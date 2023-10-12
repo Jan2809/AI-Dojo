@@ -11,3 +11,4 @@ such as the number of rooms, the number of bedrooms, the population of the house
 The app preprocesses the input data by combining some of the features and adding new features, such as the distance to the nearest city.
 """)
 
+map_ca = create_map()
