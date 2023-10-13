@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
  
 # Reading the dataset
-data = pd.read_csv('data/homeprice.csv')
+data = pd.read_csv('housing_new.csv')
  
 # Seperating the target and features
 # target ->y, features -> X
